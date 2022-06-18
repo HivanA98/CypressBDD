@@ -1,16 +1,16 @@
 /// <reference types="cypress" />
 
 import {Given, When, Then  } from "cypress-cucumber-preprocessor/steps";
-import LoginPage from './SearchPage'
+import SearchPage from './SearchPage'
 
 Given ('i open index page', () =>{
-    LoginPage.visit()
+    SearchPage.visit()
 })
 
 When ('using search page', () =>{
-    LoginPage.FIllSearchBox
+    SearchPage.FIllSearchBox
 })
 
 Then ('getting the result', () =>{
-    LoginPage.TheResult
+    SearchPage.TheResult
 })
