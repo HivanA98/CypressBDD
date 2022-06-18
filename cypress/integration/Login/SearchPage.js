@@ -16,4 +16,4 @@ class MainPage{
     }
 }
 
-export default LoginPage.js
+export default SearchPage.js
